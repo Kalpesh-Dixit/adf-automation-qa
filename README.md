@@ -21,7 +21,8 @@ Prerequisites:
 * IDE: visual studio code
 * NodeJS version above 6. (I have used 12.16.2).
 * Protractor version 5.4.3
-* Type Script Version 3.8.3 
+* TypeScript Version 3.8.3 
+* Updated webdriver-manager
 * npm version 6
 * beutiful reports 1.3.6
 * protractor-html-reporter-2 version 1.0.4

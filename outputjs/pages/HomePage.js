@@ -87,6 +87,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage.prototype.verifyDuplicateFolderError = function () {
         console.log("Fetching error message");
+        protractor_1.browser.sleep(1000);
         var errorMsg = protractor_1.element(protractor_1.by.css("simple-snack-bar.mat-simple-snackbar")).getText();
         return errorMsg;
     };
