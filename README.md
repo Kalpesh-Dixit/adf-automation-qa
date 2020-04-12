@@ -1,53 +1,30 @@
 ## Alfresco ADF automation QA exercise
+# Developed by Kalpesh Dixit
 
-Do you love automation testing and you know how to solve the following exercise? Contact us! We may have a job for you :)
-* https://jobs.smartrecruiters.com/Alfresco/743999676099136-senior-qa-automation-engineer
+Description: 
+* This project is developed using Protractor and Typescript. 
+* All dependecies are declared in file named package.json.It is located at root location in the project.
+* To pass the testdata, I have created testdata.json file in root directory. 
+* Given test scenarios are written in ADFDemo.ts file. You can find it inside specs folder.
+* protractor.config.js contains execution related configurations. 
 
-## Exercise
-Fork this GitHub repository and push the produced code in your fork repository. 
+Explanation: 
+* I have used POM design in this project. Seperate js file is created for each webpage. They are placed in pages folder.
+* I have used beutiful reports which provides html reports along with screenshots and analysis charts.
+* After creating new folder, I am asserting it by searching that folder in folders list.
+* To verify duplicate folder, I have used error message which is flashed at the bottom of the page.
+* Delete folder operation is verified with the help of confirmation message which is flashed at the bottom of the page.
+* console logs are printed at every step for tracking purpose.
+* I have implemented this assignment in chrome and firefox browser. Browser can be selected from protractor.config.js file.   
 
-Automate the following scenario using protractor:
+Prerequisites:
+* IDE: visual studio code
+* NodeJS version above 6. (I have used 12.16.2).
+* Protractor version 5.4.3
+* Type Script Version 3.8.3 
+* npm version 6
+* beutiful reports 1.3.6
+* protractor-html-reporter-2 version 1.0.4
+* Chrome browser Version 81.0
+* Firefox browser version 75.0
 
-1. Access to http://qaexercise.envalfresco.com/settings
-2. Change Provider to ECM
-3. Click Apply
-4. Navigate to http://qaexercise.envalfresco.com/login
-    - Insert Username and Password
-    - Username : guest@example.com
-    - Password : Password
-    - Click Login
-5. Navigate to http://qaexercise.envalfresco.com/files
-6. Click on 'create new folder' icon.
-7. New folder dialog is displayed.
-8. Introduce your Github username (for example in my case) "magemello".
-9. Name has been added.
-10. Click on 'Create' button.
-11. The dialog is closed. Folder with your Github username is created in the current folder.
-12. Click on 'create new folder' icon.
-13. New folder dialog is displayed.
-14. Introduce your Github username (for example in my case) "magemello".
-15. Name has been added.
-16. Click on 'Create' button.
-17. The dialog is not closed.
-18. The message "There's already a folder with this name. Try a different name" is displayed.
-19. Select the folder with your Github username
-20. Open Options window (3 dots)
-21. Click delete
-
-In the README file of the repository we want to see also the following sections:
-1. ***Description*** Describes of how to run the automation test
-2. ***Explanation*** Describes the choice made in the solution
-3. ***Prerequisites*** List here what/if anything needs to be installed
-
-You can send the link to your fork at mario.romano@alfresco.com. Feel free to attach also your cv and a link to your linkedin profile.
-
-### Starter
-The framework has already been setup in the /starter folder, please add your teest case in the spec.js file. 
-
-### Some info about protractor
-* https://github.com/angular/protractor
-* https://blog.cloudboost.io/building-your-first-tests-for-angular5-with-protractor-a48dfc225a75
-
-### Some info about ADF
-* https://github.com/Alfresco/alfresco-ng2-components
-* https://alfresco.github.io/adf-component-catalog/

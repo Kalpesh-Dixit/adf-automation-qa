@@ -1,0 +1,29 @@
+{
+    "name": "alfresco_typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "protractor.config.js",
+    "scripts": {
+        "tsc": "tsc",
+        "pretest": "npm run tsc",
+        "test": "protractor protractor.config.js"
+    },
+    "author": "Kalpesh Dixit",
+    "license": "ISC",
+    "dependencies": {
+        "@types/jasmine": "^3.5.10",
+        "@types/node": "^13.11.1",
+        "cls": "^0.1.5",
+        "jasmine": "^3.5.0",
+        "jasmine-spec-reporter": "^4.2.1",
+        "protractor": "^5.4.3",
+        "protractor-html-reporter-2": "^1.0.4",
+        "ts-node": "^8.8.2",
+        "tslint": "^5.16.0",
+        "typescript": "^3.8.3",
+        "yargs": "13.2.4"
+    },
+    "devDependencies": {
+        "protractor-beautiful-reporter": "^1.3.6"
+    }
+}

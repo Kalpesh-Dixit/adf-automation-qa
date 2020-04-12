@@ -1,0 +1,8 @@
+{
+    "baseurl": "http://qaexercise.envalfresco.com/",
+    "username": "guest@example.com",
+    "password": "Password",
+    "foldername": "kalpesh-dixit-ness",
+    "duplicatefoldermsg": "There's already a folder with this name. Try a different name.",
+    "deletefoldermsg": "kalpesh-dixit-ness deleted"
+}
