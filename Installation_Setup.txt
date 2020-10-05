@@ -1,0 +1,11 @@
+1. install nodejs in your system from: download node.js
+2. open cmd and run npm -version (Verify istallation of nodejs)
+3. run cmd: npm install -g protractor (installs protractor globally)
+4. run: protractor --version (verify installation of prtractor)
+5. run: webdriver-manager update (This will download latest webdriver and default chrome driver)
+6. run: wedriver-manager start (This will start webdriver manager)
+
+Setup in Eclipse:
+1. download Eclipse Oxygen from : https://www.eclipse.org/downloads/packages/release/oxygen/r
+2. install tern plugin from market place
+3. jasmine is default BDD framework for protractor. 
